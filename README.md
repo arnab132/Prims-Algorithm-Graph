@@ -48,5 +48,6 @@ We repeat the above steps until mstSet includes all vertices of given graph. Fin
 
 Time Complexity of the above program is O(V^2). If the input graph is represented using adjacency list, then the time complexity of Prim’s algorithm can be reduced to O(E log V) with the help of binary heap.
 
+Hit the Star button if you like and keep supporting.
 
 
