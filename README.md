@@ -6,7 +6,7 @@ A group of edges that connects two set of vertices in a graph is called cut in g
 
 How does Prim’s Algorithm Work? 
 
-The idea behind Prim’s algorithm is simple, a spanning tree means all vertices must be connected. So the two disjoint subsets (discussed above) of vertices must be connected to make a Spanning Tree. And they must be connected with the minimum weight edge to make it a Minimum Spanning Tree.
+The idea behind Prim’s algorithm is simple, a Spanning tree means all vertices must be connected. So the two disjoint subsets (discussed above) of vertices must be connected to make a Spanning Tree. And they must be connected with the minimum weight edge to make it a Minimum Spanning Tree.
 
 Algorithm 
 
