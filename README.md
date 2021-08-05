@@ -29,7 +29,7 @@ The set mstSet is initially empty and keys assigned to vertices are {0, INF, INF
 
 ![image](https://user-images.githubusercontent.com/22562694/120124658-091ba900-c1d3-11eb-89f4-995edbf1bc1e.png)
 
-Pick the vertex with minimum key value and not already included in MST (not in mstSET). The vertex 1 is picked and added to mstSet. So mstSet now becomes {0, 1}. Update the key values of adjacent vertices of 1. The key value of vertex 2 becomes 8.
+Pick the vertex with minimum key value and not already included in MST (not in mstSET). The Vertex 1 is picked and added to mstSet. So mstSet now becomes {0, 1}. Update the key values of adjacent vertices of 1. The key value of vertex 2 becomes 8.
 
 ![image](https://user-images.githubusercontent.com/22562694/120124675-1b95e280-c1d3-11eb-8a7f-b52f6d4c5dd2.png)
 
