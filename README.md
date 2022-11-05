@@ -8,7 +8,7 @@ How does Prim’s Algorithm Work?
 
 The idea behind Prim’s algorithm is simple, a Spanning tree means all Vertices must be connected. So the two disjoint subsets (discussed above) of vertices must be connected to make a Spanning Tree. And they must be connected with the minimum weight edge to make it a Minimum Spanning Tree (MST). 
 
-Algorithm 
+Algorithm :
 
 1) Create a set mstSet that keeps track of vertices already included in MST. 
 2) Assign a key value to all vertices in the input graph. Initialize all key values as INFINITE. Assign key value as 0 for the first vertex so that it is picked first. 
@@ -19,7 +19,7 @@ Algorithm
 
 The idea of using key values is to pick the minimum weight edge from cut. The key values are used only for vertices which are not yet included in MST, the key value for these vertices indicate the minimum weight edges connecting them to the set of vertices included in MST. 
 
-How to implement the above algorithm? 
+How to Implement the above algorithm? 
 
 We use a boolean array mstSet[] to represent the set of vertices included in MST. If a value mstSet[v] is true, then vertex v is included in MST, otherwise not. Array key[] is used to store key values of all vertices. Another array parent[] to store indexes of parent nodes in MST. The parent array is the output array which is used to show the constructed MST.
 
